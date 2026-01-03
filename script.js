@@ -15,4 +15,3 @@ function volume_sphere() {
   // Display result in output field
   document.getElementById("volume").value = volume;
 }
-window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
